@@ -1,0 +1,95 @@
+body {
+    background-color: #000000;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+section {
+    background-color: #121214;
+    width: 1280px;
+    height: 720px;
+    margin: 5% auto;
+    border-radius: 10px;
+}
+
+.logo {
+    width: 229px;
+    margin: 0 auto;
+    padding: 42px 0;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+ul {
+    max-width: 700px;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul li img {
+    border-radius: 10px;
+}
+
+ul li img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 1s;
+}
+
+.caixa {
+    overflow: hidden;
+    max-width: 160px;
+    max-height: 160px;
+}
+
+.caixa:hover {
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+p {
+    color: whitesmoke;
+    text-align: center;
+    opacity: 0.5;
+}
+
+#opacidade {
+    opacity: 0.4;
+}
+
+#opacidade:hover {
+    opacity: 1;
+}
+
+li:hover :not(img) {
+    opacity: 1;
+}
+
+.botao {
+    text-align: center;
+    margin-top: 8%;
+}
+
+button {
+    width: 206px;
+    height: 50px;
+    border-radius: 8px;
+    background-color: #121214;
+    color: whitesmoke;
+    border-color: whitesmoke;
+    margin: 0 auto;
+}
+
+
+button:hover {
+    background-color: whitesmoke;
+    color: #000000;
+    transition: 500ms;
+    cursor: pointer;
+}
